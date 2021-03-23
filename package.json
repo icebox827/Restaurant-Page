@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/icebox827/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/icebox827/Restaurant-Page#readme"
+  "homepage": "https://github.com/icebox827/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0"
+  }
 }
