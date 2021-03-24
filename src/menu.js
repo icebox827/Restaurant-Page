@@ -14,6 +14,9 @@ function breakfast() {
   const breakfast = document.createElement("div");
   breakfast.classList.add("menu-item");
 
+  const headerBreak = document.createElement("h2");
+  headerBreak.innerHTML = "Breakfast";
+
   const foodImageBreak = document.createElement("img");
   foodImageBreak.src = "img/breakfast.jpg";
   foodImageBreak.alt = "Trio Burger";
@@ -24,6 +27,7 @@ function breakfast() {
   const beverageBreak = document.createElement("h4");
   beverageBreak.innerHTML = "Soda, Milk, Juice";
 
+  breakfast.appendChild(headerBreak);
   breakfast.appendChild(foodImageBreak);
   breakfast.appendChild(foodBreak);
   breakfast.appendChild(beverageBreak);
@@ -35,6 +39,9 @@ function lunch() {
   const lunch = document.createElement("div");
   lunch.classList.add("menu-item");
 
+  const headerLunch = document.createElement("h2");
+  headerLunch.innerHTML = "Lunch";
+
   const foodImageLunch = document.createElement("img");
   foodImageLunch.src = "img/lunch.jpg";
   foodImageLunch.alt = "meals";
@@ -45,6 +52,7 @@ function lunch() {
   const beverageLunch = document.createElement("h4");
   beverageLunch.innerHTML = "Smoothie, soda, Juice";
 
+  lunch.appendChild(headerLunch);
   lunch.appendChild(foodImageLunch);
   lunch.appendChild(foodLunch);
   lunch.appendChild(beverageLunch);
@@ -56,6 +64,9 @@ function dinner() {
   const dinner = document.createElement("div");
   dinner.classList.add("menu-item");
 
+  const headerDinner = document.createElement("h2");
+  headerDinner.innerHTML = "Dinner";
+
   const foodImageDinner = document.createElement("img");
   foodImageDinner.src = "img/dinner.jpg";
   foodImageDinner.alt = "dinner";
@@ -66,6 +77,7 @@ function dinner() {
   const beverageDinner = document.createElement("h4");
   beverageDinner.innerHTML = "Red Wine, Rose, <br> Martini, Cocktail";
 
+  dinner.appendChild(headerDinner);
   dinner.appendChild(foodImageDinner);
   dinner.appendChild(foodDinner);
   dinner.appendChild(beverageDinner);
@@ -77,6 +89,9 @@ function bar() {
   const bar = document.createElement("div");
   bar.classList.add("menu-item");
 
+  const headerBar = document.createElement("h2");
+  headerBar.innerHTML = "Bar";
+
   const barImage = document.createElement("img");
   barImage.src = "img/bar.jpg";
   barImage.alt = "cocktail";
@@ -87,6 +102,7 @@ function bar() {
   const barAlchool = document.createElement("h4");
   barAlchool.innerHTML = "Cocktail, Martini, Rhum <br> Vodka, Mojito, House Special";
 
+  bar.appendChild(headerBar);
   bar.appendChild(barImage);
   bar.appendChild(barDrink);
   bar.appendChild(barAlchool);

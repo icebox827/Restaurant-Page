@@ -11,12 +11,12 @@ function header() {
   name.innerHTML = "<b>Ô Comptoir de Marcadieu</b>";
 
   header.appendChild(name);
-  header.appendChild(navbar());
+  header.appendChild(navBar());
 
   return header;
 }
 
-function navbar() {
+function navBar() {
   const nav = document.createElement("nav");
 
   const homeButton = document.createElement("button");
@@ -24,7 +24,7 @@ function navbar() {
   homeButton.innerHTML = "Home";
   homeButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    setActiveButton(homeButton);
+    activeButton(homeButton);
     loadHome();
   });
 
@@ -33,7 +33,7 @@ function navbar() {
   menuButton.innerHTML = "Menu";
   menuButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    setActiveButton(menuButton);
+    activeButton(menuButton);
     loadMenu();
   });
 
@@ -42,7 +42,7 @@ function navbar() {
   contactButton.innerHTML = "Contact";
   contactButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    setActiveButton(contactButton);
+    activeButton(contactButton);
     loadContact();
   });
 
