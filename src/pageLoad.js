@@ -1,4 +1,5 @@
 import loadHome from "./home";
+import loadContact from "./contact";
 
 function header() {
   const header = document.createElement("header");
