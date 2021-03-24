@@ -1,3 +1,3 @@
-import loadPage from "./pageLoad";
+import loadPage from './pageLoad';
 
 loadPage();

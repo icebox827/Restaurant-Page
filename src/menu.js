@@ -1,6 +1,6 @@
 function menu() {
-  const menu = document.createElement("div");
-  menu.classList.add("menu");
+  const menu = document.createElement('div');
+  menu.classList.add('menu');
 
   menu.appendChild(breakfast());
   menu.appendChild(lunch());
@@ -11,21 +11,21 @@ function menu() {
 }
 
 function breakfast() {
-  const breakfast = document.createElement("div");
-  breakfast.classList.add("menu-item");
+  const breakfast = document.createElement('div');
+  breakfast.classList.add('menu-item');
 
-  const headerBreak = document.createElement("h2");
-  headerBreak.innerHTML = "Breakfast";
+  const headerBreak = document.createElement('h2');
+  headerBreak.innerHTML = 'Breakfast';
 
-  const foodImageBreak = document.createElement("img");
-  foodImageBreak.src = "img/breakfast.jpg";
-  foodImageBreak.alt = "Trio Burger";
+  const foodImageBreak = document.createElement('img');
+  foodImageBreak.src = 'img/breakfast.jpg';
+  foodImageBreak.alt = 'Trio Burger';
 
-  const foodBreak = document.createElement("h3");
-  foodBreak.innerHTML = "Scramble egg, Baggles, Bacon <br> Noodles, Sandwiches, Burger";
+  const foodBreak = document.createElement('h3');
+  foodBreak.innerHTML = 'Scramble egg, Baggles, Bacon <br> Noodles, Sandwiches, Burger';
 
-  const beverageBreak = document.createElement("h3");
-  beverageBreak.innerHTML = "Soda, Milk, Juice";
+  const beverageBreak = document.createElement('h3');
+  beverageBreak.innerHTML = 'Soda, Milk, Juice';
 
   breakfast.appendChild(headerBreak);
   breakfast.appendChild(foodImageBreak);
@@ -36,21 +36,21 @@ function breakfast() {
 }
 
 function lunch() {
-  const lunch = document.createElement("div");
-  lunch.classList.add("menu-item");
+  const lunch = document.createElement('div');
+  lunch.classList.add('menu-item');
 
-  const headerLunch = document.createElement("h2");
-  headerLunch.innerHTML = "Lunch";
+  const headerLunch = document.createElement('h2');
+  headerLunch.innerHTML = 'Lunch';
 
-  const foodImageLunch = document.createElement("img");
-  foodImageLunch.src = "img/lunch.jpg";
-  foodImageLunch.alt = "meals";
+  const foodImageLunch = document.createElement('img');
+  foodImageLunch.src = 'img/lunch.jpg';
+  foodImageLunch.alt = 'meals';
 
-  const foodLunch = document.createElement("h3");
-  foodLunch.innerHTML = "Chicken Wings, Nuggets, Grill <br> Fries, Salads, Steak";
+  const foodLunch = document.createElement('h3');
+  foodLunch.innerHTML = 'Chicken Wings, Nuggets, Grill <br> Fries, Salads, Steak';
 
-  const beverageLunch = document.createElement("h3");
-  beverageLunch.innerHTML = "Smoothie, soda, Juice";
+  const beverageLunch = document.createElement('h3');
+  beverageLunch.innerHTML = 'Smoothie, soda, Juice';
 
   lunch.appendChild(headerLunch);
   lunch.appendChild(foodImageLunch);
@@ -61,21 +61,21 @@ function lunch() {
 }
 
 function dinner() {
-  const dinner = document.createElement("div");
-  dinner.classList.add("menu-item");
+  const dinner = document.createElement('div');
+  dinner.classList.add('menu-item');
 
-  const headerDinner = document.createElement("h2");
-  headerDinner.innerHTML = "Dinner";
+  const headerDinner = document.createElement('h2');
+  headerDinner.innerHTML = 'Dinner';
 
-  const foodImageDinner = document.createElement("img");
-  foodImageDinner.src = "img/dinner.jpg";
-  foodImageDinner.alt = "dinner";
+  const foodImageDinner = document.createElement('img');
+  foodImageDinner.src = 'img/dinner.jpg';
+  foodImageDinner.alt = 'dinner';
 
-  const foodDinner = document.createElement("h3");
-  foodDinner.innerHTML = "Salad, Meat, Fishes <br> Rice and Beans, BBQ, Steak";
+  const foodDinner = document.createElement('h3');
+  foodDinner.innerHTML = 'Salad, Meat, Fishes <br> Rice and Beans, BBQ, Steak';
 
-  const beverageDinner = document.createElement("h3");
-  beverageDinner.innerHTML = "Red Wine, Rose, <br> Martini, Cocktail";
+  const beverageDinner = document.createElement('h3');
+  beverageDinner.innerHTML = 'Red Wine, Rose, <br> Martini, Cocktail';
 
   dinner.appendChild(headerDinner);
   dinner.appendChild(foodImageDinner);
@@ -86,33 +86,33 @@ function dinner() {
 }
 
 function bar() {
-  const bar = document.createElement("div");
-  bar.classList.add("menu-item");
+  const bar = document.createElement('div');
+  bar.classList.add('menu-item');
 
-  const headerBar = document.createElement("h2");
-  headerBar.innerHTML = "Bar";
+  const headerBar = document.createElement('h2');
+  headerBar.innerHTML = 'Bar';
 
-  const barImage = document.createElement("img");
-  barImage.src = "img/bar.jpg";
-  barImage.alt = "cocktail";
+  const barImage = document.createElement('img');
+  barImage.src = 'img/bar.jpg';
+  barImage.alt = 'cocktail';
 
-  const barDrink = document.createElement("h3");
-  barDrink.innerHTML = "Ice tea, Cranberry Juice, Coffee <br> Latte, Chocolate, Mix";
+  const barDrink = document.createElement('h3');
+  barDrink.innerHTML = 'Ice tea, Cranberry Juice, Coffee <br> Latte, Chocolate, Mix';
 
-  const barAlchool = document.createElement("h3");
-  barAlchool.innerHTML = "Cocktail, Martini, Rhum <br> Vodka, Mojito, House Special";
+  const barAlchool = document.createElement('h3');
+  barAlchool.innerHTML = 'Cocktail, Martini, Rhum <br> Vodka, Mojito, House Special';
 
   bar.appendChild(headerBar);
   bar.appendChild(barImage);
   bar.appendChild(barDrink);
   bar.appendChild(barAlchool);
-  
+
   return bar;
 }
 
 function loadMenu() {
-  const main = document.getElementById("main");
-  main.textContent = "";
+  const main = document.getElementById('main');
+  main.textContent = '';
   main.appendChild(menu());
 }
 
