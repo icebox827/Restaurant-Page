@@ -6,7 +6,7 @@ function contact () {
   address.innerHTML = "3, Rue Marcadieu, Avenue John Brown <br> Port-au-Prince, Haiti";
 
   const email = document.createElement("h3");
-  eamil.innerHTML = "ocomptoirmarcadieu@gmail.com";
+  email.innerHTML = "ocomptoirmarcadieu@gmail.com";
 
   const phone = document.createElement("h3");
   phone.innerHTML = "+509 37 63 8903";

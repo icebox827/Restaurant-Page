@@ -21,10 +21,10 @@ function breakfast() {
   foodImageBreak.src = "img/breakfast.jpg";
   foodImageBreak.alt = "Trio Burger";
 
-  const foodBreak = document.createElement("h4");
+  const foodBreak = document.createElement("h3");
   foodBreak.innerHTML = "Scramble egg, Baggles, Bacon <br> Noodles, Sandwiches, Burger";
 
-  const beverageBreak = document.createElement("h4");
+  const beverageBreak = document.createElement("h3");
   beverageBreak.innerHTML = "Soda, Milk, Juice";
 
   breakfast.appendChild(headerBreak);
@@ -46,10 +46,10 @@ function lunch() {
   foodImageLunch.src = "img/lunch.jpg";
   foodImageLunch.alt = "meals";
 
-  const foodLunch = document.createElement("h4");
+  const foodLunch = document.createElement("h3");
   foodLunch.innerHTML = "Chicken Wings, Nuggets, Grill <br> Fries, Salads, Steak";
 
-  const beverageLunch = document.createElement("h4");
+  const beverageLunch = document.createElement("h3");
   beverageLunch.innerHTML = "Smoothie, soda, Juice";
 
   lunch.appendChild(headerLunch);
@@ -71,10 +71,10 @@ function dinner() {
   foodImageDinner.src = "img/dinner.jpg";
   foodImageDinner.alt = "dinner";
 
-  const foodDinner = document.createElement("h4");
+  const foodDinner = document.createElement("h3");
   foodDinner.innerHTML = "Salad, Meat, Fishes <br> Rice and Beans, BBQ, Steak";
 
-  const beverageDinner = document.createElement("h4");
+  const beverageDinner = document.createElement("h3");
   beverageDinner.innerHTML = "Red Wine, Rose, <br> Martini, Cocktail";
 
   dinner.appendChild(headerDinner);
@@ -96,10 +96,10 @@ function bar() {
   barImage.src = "img/bar.jpg";
   barImage.alt = "cocktail";
 
-  const barDrink = document.createElement("h4");
+  const barDrink = document.createElement("h3");
   barDrink.innerHTML = "Ice tea, Cranberry Juice, Coffee <br> Latte, Chocolate, Mix";
 
-  const barAlchool = document.createElement("h4");
+  const barAlchool = document.createElement("h3");
   barAlchool.innerHTML = "Cocktail, Martini, Rhum <br> Vodka, Mojito, House Special";
 
   bar.appendChild(headerBar);
