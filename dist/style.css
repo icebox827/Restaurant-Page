@@ -45,3 +45,34 @@ header {
 .button-nav:hover {
   transform: translateY(-10%);
 }
+
+.home h2 {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+.footer {
+  position: relative;
+  top: 31rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.4rem;
+  text-align: center;
+  background-color: black;
+  border-top: 1px solid white;
+}
+
+.footer p {
+  color: white;
+}
+
+.fab {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
