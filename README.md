@@ -15,7 +15,7 @@ Eslint
 
 ## Live demo
 
-[clik here!](https://icebox827.github.io/library/.)
+[clik here!](https://icebox827.github.io/Restaurant-Page//.)
 
 ## 🔨 Technologies
 
