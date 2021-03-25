@@ -1,0 +1,39 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A restaurant web page build with HTML5, CSS3, and JavaScript",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icebox827/Restaurant-Page.git"
+  },
+  "author": "Denis Lafontant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icebox827/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/icebox827/Restaurant-Page#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.4",
+    "eslint": "^7.22.0",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "eslint-config-airbnb": "^18.2.1"
+  }
+}

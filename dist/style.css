@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./img/cover.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: blue;
+  border-bottom: 1px solid white;
+  padding: 0.5em;
+}
+
+.name {
+  color: white;
+  margin: 8px;
+}
+
+.button-nav {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  margin: 8px;
+  transition: transform 0.3s;
+  color: white;
+}
+
+.button-nav.active {
+  border-bottom: 2px solid goldenrod;
+}
+
+.button-nav:hover {
+  transform: translateY(-10%);
+}
+
+.home {
+  width: 100%;
+  animation: slide-right 3s ;
+}
+
+.home h2 {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: yellow;
+  animation: slide-right 3s ;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1rem;
+  animation: fadeIn 2s;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.menu img {
+  display: block;
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.menu-item h2 {
+  color: yellow;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0.4rem;
+}
+
+.menu-item h3 {
+  color: yellow;
+  text-align: center;
+  padding-top: 0.15rem;
+}
+
+.contact {
+  width: 100%;
+  margin-top: 2rem;
+  animation: fadeIn 2s;
+}
+
+.contact h3 {
+  color: yellow;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.contact img {
+  display: block;
+  width: 35%;
+  height: 35%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.4rem;
+  text-align: center;
+  background-color: black;
+  border-top: 1px solid white;
+}
+
+.footer p {
+  color: white;
+}
+
+.fab {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
